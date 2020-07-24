@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/portfolio/public",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "yarn build; push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "vue": "^3.0.0-rc.1"
