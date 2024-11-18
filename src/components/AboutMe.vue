@@ -94,7 +94,7 @@
                 persistent
               />
               <v-row>
-                <v-col cols="3" v-for="(habilidade, index) in habilidades">
+                <v-col cols="3" v-for="(habilidade) in habilidades">
                   <v-card :prepend-icon="habilidade.icon" class="text-center px-2 mx-1" :title="habilidade.nome"></v-card>
                 </v-col>
               </v-row>
